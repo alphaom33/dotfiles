@@ -1,0 +1,30 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = mbypr
+	email = mbypr@umsystem.edu
+[core]
+	editor = vi
+[pull]
+	rebase = true
+[merge]
+	conflictstyle = zdiff3
+[rebase]
+	autostash = true
+[push]
+	autosetupremote = true
+[init]
+	defaultbranch = main
+[rerere]
+	enabled = true
+[help]
+	autocorrect = 1
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

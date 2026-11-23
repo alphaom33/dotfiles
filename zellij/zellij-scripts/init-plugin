@@ -1,0 +1,9 @@
+#!/bin/bash
+
+printf "layout {
+    pane {
+        plugin location=\"file:/home/ltuser/zellij-tab-bar-indexed/target/wasm32-wasip1/debug/compact-bar.wasm\"
+    }
+}" > /tmp/plugin-permissions.kdl
+
+zellij --config /dev/null --layout "/tmp/plugin-permissions.kdl"

@@ -1,0 +1,3 @@
+[submodule "zellij/zellij-tab-bar-indexed"]
+	path = zellij/zellij-tab-bar-indexed
+	url = https://github.com/alphaom33/zellij-tab-bar-indexed.git
