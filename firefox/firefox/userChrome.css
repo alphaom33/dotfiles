@@ -1,0 +1,6 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/*chrome://browser/content/browser.xhtml*/
+
+#back-button, #forward-button, #sidebar-button, #unified-extensions-button, #PanelUI-menu-button, #page-action-buttons, #remote-control-box, .tab-close-button.close-icon, .tabs-newtab-button, #sidebar-header, #tabbrowser-arrowscrollbox-periphery, #home-button, #identity-icon-box, toolbarbutton.bookmark-item > .toolbarbutton-icon, hbox.titlebar-buttonbox-container { visibility: hidden !important; }
+
+#TabsToolbar { visibility: collapse !important; }
